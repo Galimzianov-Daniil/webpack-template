@@ -1,0 +1,7 @@
+@mixin r-ve($setting) {
+
+    @media (max-width: map-get($breakpoints, $setting)) {
+        @content
+    }
+    
+}
